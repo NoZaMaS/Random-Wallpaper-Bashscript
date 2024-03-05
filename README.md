@@ -19,4 +19,4 @@ swww init
 swww img $randomfile
 wal -i $randomfile 
 killall waybar
-waybar```
+waybar
