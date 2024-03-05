@@ -4,8 +4,8 @@ Small script done under bash to set a random wallpaper from a given directory an
 Requires pywal beforhand. Any status bar or wallpaper daemon should do the trick (do make the needed changes)
 
 ### Script
-````
-#!/bin/bash
+
+`#!/bin/bash
 
 #replace swww with whichever wallpaper daemon you use and its respective arguments
 #same goes for waybar
@@ -19,4 +19,7 @@ swww init
 swww img $randomfile
 wal -i $randomfile 
 killall waybar
-waybar
+waybar`
+
+### Demo
+https://youtu.be/rlEPbRJVWPI
